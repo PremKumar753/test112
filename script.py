@@ -7,4 +7,4 @@ with rasterio.open(file_path) as src:
     if crs:
         print("EPSG Code:", crs.to_epsg())
     else:
-        print("No CRS information found.")
+        print("No CRS information found0000.")
